@@ -29,3 +29,15 @@ console.log("Uncle has finished processing")
 
 console.log("Uncle is processing...")
 console.log(fishSoupQueue.dequeue())
+
+// 2 timers function in JavaScript
+
+// runs once only
+setTimeout( ()=>{
+  console.log("Time's up!")
+}, 2000)
+
+// keeps running as per specified interval
+setInterval( ()=>{
+  console.log("One cycle is up")
+}, 3000)
